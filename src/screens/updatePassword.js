@@ -16,7 +16,7 @@ import CryptoJS from "react-native-crypto-js";
 /**
  * @summary This represents the screen for updating a users password
  */
-class updatePassword extends React.Component {
+class UpdatePassword extends React.Component {
   constructor(props) {
     super(props);
     const { navigation } = this.props;
@@ -126,4 +126,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default updatePassword;
+export default UpdatePassword;
