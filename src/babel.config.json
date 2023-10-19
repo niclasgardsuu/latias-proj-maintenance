@@ -1,0 +1,12 @@
+/**
+ * @brief This file is necessary for the jest 
+ * testing framework to run properly.
+ */
+{
+  "presets": [
+    ["@babel/preset-env", {"targets": {"node": "current"}}],
+    "@babel/preset-typescript",
+    "module:metro-react-native-babel-preset"
+  ],
+}
+
